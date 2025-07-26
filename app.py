@@ -7,10 +7,10 @@ import numpy as np
 from bin2png import file_to_png
 from flask_cors import CORS
 
-app = Flask(__name__)
-CORS(app)
-UPLOAD_FOLDER = 'static/uploads/'
-OUTPUT_FOLDER = 'static/outputs/'
+app = Flask(__name__, static_folder='static', template_folder='templates')
+
+UPLOAD_FOLDER = os.path.join(app.static_folder, 'uploads')
+OUTPUT_FOLDER = os.path.join(app.static_folder, 'outputs')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['OUTPUT_FOLDER'] = OUTPUT_FOLDER
 
@@ -39,8 +39,8 @@ class_names = ['Adposhel', 'Agent', 'Allaple', 'Amonetize', 'Androm',
                ]
 
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
+def index():
+    return render_template('index.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
