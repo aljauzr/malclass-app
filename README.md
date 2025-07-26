@@ -20,7 +20,7 @@ The file model.tflite is NOT included in this project due to its large size. You
 ## Initialization
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/malclass-app.git
+git clone https://github.com/aljauzr/malclass-app.git
 cd malclass-app
 ```
 ### 2. Create a virtual environment
