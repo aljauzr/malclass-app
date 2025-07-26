@@ -4,7 +4,7 @@
 
 The machine learning model used in this system achieves an accuracy of approximately **86.91%**, trained on the MaleVis dataset which consists of 9,100 samples from 25 malware families. Since the dataset only includes a limited number of known families, the system may misclassify files belonging to unknown or novel malware types.
 
-**Important**
+**IMPORTANT**
 
 The file model.tflite is NOT included in this project due to its large size. You can contact me via email: aljauzir@gmail.com or:
 1. Train your own CNN model using the MaleVis dataset
