@@ -71,5 +71,5 @@ Because of the limitations of the dataset that was used to train the model, it c
 - Vilsel
 
 ## Contact
-📧 Email: aljauzir@gmail.com
-💼 LinkedIn: [Al Jauzi Abdurrohman](https://linkedin.com/in/aljauzr)
+- 📧 Email: aljauzir@gmail.com
+- 💼 LinkedIn: [Al Jauzi Abdurrohman](https://linkedin.com/in/aljauzr)
