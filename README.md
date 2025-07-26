@@ -71,6 +71,19 @@ Because of the limitations of the dataset that was used to train the model, it c
 - VBKrypt
 - Vilsel
 
+## UI Overview
+### Home
+![Home](static/images/1-Home.jpg)
+
+### Malware
+![Malware](static/images/2-Malware.jpg)
+
+### Benign
+![Benign](static/images/3-Benign.jpg)
+
+### About
+![About](static/images/4-About.jpg)
+
 ## Contact
 - 📧 Email: aljauzir@gmail.com
 - 💼 LinkedIn: [Al Jauzi Abdurrohman](https://linkedin.com/in/aljauzr)
